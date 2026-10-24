@@ -1,4 +1,4 @@
-# Assignment 5 - Frontend: Personal Info Object & DOM Manipulation
+# Assignment 5 - JavaScript Basics (DOM Manipulation & Events)
 
 **Name:** Asylkhan Tolganai  
 **Group:** SE-2538  
