@@ -1,4 +1,3 @@
-# web-5
 # Assignment 5 - Frontend: Personal Info Object & DOM Manipulation
 
 **Name:** Asylkhan Tolganai  
