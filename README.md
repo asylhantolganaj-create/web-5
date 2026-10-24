@@ -7,7 +7,6 @@
 ## Task 1 - Personal Info Object
 Created a `const` object named `userProfile` that stores different data types: `name` (string), `birthYear` (number), `isDeveloper` (boolean), and `hobbies` (array).
 
-```js
 const userProfile = {
   name: "Zhansaya",
   birthYear: 2006,
