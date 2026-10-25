@@ -19,7 +19,7 @@ const userProfile = {
 
 ---
 
-Task 2 - Arithmetic Calculations
+## Task 2 - Arithmetic Calculations
 Used arithmetic operators to calculate the user's current age dynamically (current year minus birthYear). Also calculated months old and the total hobbies count. The results are displayed on the page and in the browser console.
 
 js
@@ -35,33 +35,29 @@ let months = age * 12;
 
 ---
 
-Task 3 - HTML Form Setup
+## Task 3 - HTML Form Setup
 Created a form with inputs for Username and Birth Year, along with a "Create / Update Profile" submit button.
 <img width="977" height="271" alt="image" src="https://github.com/user-attachments/assets/eccc6985-38b2-4e27-bd55-a2d8953ea92b" />
 
 
 ---
-Task 4 - Event Listener
+## Task 4 - Event Listener
 Added a submit event listener to the form. It captures the input values, updates the userProfile object, and calls showProfile() to refresh the DOM. I used preventDefault() to stop the page from reloading.
 <img width="1192" height="587" alt="image" src="https://github.com/user-attachments/assets/1a337b44-1818-4d99-bdcf-bf34e5bfb37e" />
 
 <img width="1197" height="597" alt="image" src="https://github.com/user-attachments/assets/ef3de502-0e1b-4178-b3d3-705cb21ce89f" />
 
-
-
 ---
 
-Task 5 - Creating & Removing Elements
+## Task 5 - Creating & Removing Elements
 Created a <ul> list. The "Add Item" button creates a new <li> and appends it using createElement and appendChild. The "Remove Item" button deletes the last item using lastElementChild and removeChild.
 <img width="1285" height="812" alt="image" src="https://github.com/user-attachments/assets/ae8f0d23-d574-43fc-86ff-e96207404a28" />
 <img width="1217" height="322" alt="image" src="https://github.com/user-attachments/assets/a8bcc30d-8784-427b-949b-a88f8beedfb4" />
 
 
-
-
 ---
 
-Input Validation
+## Input Validation
 I added validation checks to prevent errors and empty inputs:
 
 If the profile form is submitted with empty fields, it shows an alert ("Please fill both fields").
@@ -74,5 +70,7 @@ If "Remove Item" is clicked when the list is empty, it shows an alert ("Nothing 
 <img width="1317" height="797" alt="image" src="https://github.com/user-attachments/assets/0255de05-a3e4-43bc-80e0-66e56915297d" />
 <img width="1302" height="767" alt="image" src="https://github.com/user-attachments/assets/adde87cf-4126-4a6b-bc2c-b3e9a984d6c0" />
 
-Summary of Work Process
+---
+
+## Summary of Work Process
 First, I created the userProfile object and wrote the showProfile() function to calculate age, months old, and hobby count. Then, I built the HTML form and added a submit event listener with preventDefault() to update the object dynamically. After that, I implemented the DOM list manipulation using createElement, appendChild, and removeChild. Finally, I added validation checks to prevent errors from empty inputs. I tested all features in the browser, ensured the console had no errors, and deployed the project via GitHub Pages.
