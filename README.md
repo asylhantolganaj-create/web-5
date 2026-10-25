@@ -14,7 +14,7 @@ const userProfile = {
   
   isDeveloper: true,
   
-  hobbies: ["volleyball", "watch movie", "drawing", "sleep"]
+  hobbies: ["volleyball", "watch movie", "drawing", "swimming"]
 };
 <img width="1241" height="617" alt="image" src="https://github.com/user-attachments/assets/7aff03ac-fe97-4b48-99db-35517fd0f351" />
 
