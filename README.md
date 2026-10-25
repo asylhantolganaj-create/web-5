@@ -5,18 +5,10 @@
 ---
 
 ## Task 1 - Personal Info Object
-Created a `const` object named `userProfile` that stores different data types: `name` (string), `birthYear` (number), `isDeveloper` (boolean), and `hobbies` (array).
-
-const userProfile = {
-  name: "Tolganai",
-  
-  birthYear: 2008,
-  
-  isDeveloper: true,
-  
-  hobbies: ["volleyball", "watch movie", "drawing", "swimming"]
+Created a `const` object named `userProfile` that stores different data types.
 };
-<img width="1241" height="617" alt="image" src="https://github.com/user-attachments/assets/7aff03ac-fe97-4b48-99db-35517fd0f351" />
+<img width="1387" height="747" alt="image" src="https://github.com/user-attachments/assets/1cf851a3-5361-4d9a-99b4-15268beb4b8d" />
+
 
 
 ---
@@ -53,9 +45,10 @@ Added a submit event listener to the form. It captures the input values, updates
 ---
 
 Task 5 - Creating & Removing Elements
-Created a <ul> list. The "Add Item" button creates a new <li> using document.createElement and appends it. The "Remove Item" button deletes the last item using lastElementChild and removeChild.
-<img width="897" height="235" alt="image" src="https://github.com/user-attachments/assets/e93d0757-59ea-43ff-9347-fa0569a97688" />
-<img width="1275" height="237" alt="image" src="https://github.com/user-attachments/assets/a95530e8-be59-4f61-82bc-5513060369be" />
+Created a `<ul>` list. The "Add Item" button creates a new `<li>` and appends it. The "Remove Item" button deletes the last item.
+<img width="1285" height="812" alt="image" src="https://github.com/user-attachments/assets/ae8f0d23-d574-43fc-86ff-e96207404a28" />
+<img width="1217" height="322" alt="image" src="https://github.com/user-attachments/assets/a8bcc30d-8784-427b-949b-a88f8beedfb4" />
+
 
 
 
@@ -69,5 +62,6 @@ If "Add Item" is clicked with an empty input, it shows an alert ("Type something
 If "Remove Item" is clicked when the list is empty, it shows an alert ("Nothing to remove").
 
 <img width="1247" height="605" alt="image" src="https://github.com/user-attachments/assets/0ece84fd-eb55-4e71-aa3e-9d3fe4927d13" />
-<img width="1346" height="827" alt="image" src="https://github.com/user-attachments/assets/50dd0ef1-1afd-43f4-a8b5-17633eed648a" />
-<img width="1390" height="757" alt="image" src="https://github.com/user-attachments/assets/9aab18e4-a934-4354-8c0d-248fc428bcf8" />
+<img width="1317" height="797" alt="image" src="https://github.com/user-attachments/assets/0255de05-a3e4-43bc-80e0-66e56915297d" />
+<img width="1302" height="767" alt="image" src="https://github.com/user-attachments/assets/adde87cf-4126-4a6b-bc2c-b3e9a984d6c0" />
+
