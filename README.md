@@ -24,7 +24,9 @@ Used arithmetic operators to calculate the user's current age dynamically (curre
 
 js
 let thisYear = new Date().getFullYear();
+
 let age = thisYear - userProfile.birthYear;
+
 let months = age * 12;
 
 <img width="1170" height="596" alt="image" src="https://github.com/user-attachments/assets/fdb28f68-6953-4be5-8b82-0c2128ce449c" />
