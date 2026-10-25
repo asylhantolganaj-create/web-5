@@ -8,9 +8,12 @@
 Created a `const` object named `userProfile` that stores different data types: `name` (string), `birthYear` (number), `isDeveloper` (boolean), and `hobbies` (array).
 
 const userProfile = {
-  name: "Tolganai",     // <-- твое имя
-  birthYear: 2008,      // <-- твой год
+  name: "Tolganai",
+  
+  birthYear: 2008,
+  
   isDeveloper: true,
+  
   hobbies: ["volleyball", "watch movie", "drawing", "sleep"]
 };
 <img width="1241" height="617" alt="image" src="https://github.com/user-attachments/assets/7aff03ac-fe97-4b48-99db-35517fd0f351" />
