@@ -1,11 +1,9 @@
-
 const userProfile = {
   name: "Tolganai",
   birthYear: 2008,
   isDeveloper: true,
-  hobbies: ["Volleyboll", "watch movie", "drawing","swimming"]
+  hobbies: ["swim", "basketball", "football", "music"]
 };
-
 
 function showProfile() {
   let thisYear = new Date().getFullYear();
@@ -28,8 +26,6 @@ function showProfile() {
 
 showProfile();
 
-
-
 document.getElementById("myForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
@@ -48,9 +44,13 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
   document.getElementById("myForm").reset();
 });
 
-
-
 let hobbyList = document.getElementById("hobbyList");
+
+for (let i = 0; i < userProfile.hobbies.length; i++) {
+  let li = document.createElement("li");
+  li.textContent = userProfile.hobbies[i];
+  hobbyList.appendChild(li);
+}
 
 document.getElementById("addBtn").addEventListener("click", function() {
   let text = document.getElementById("hobbyInput").value;
@@ -66,12 +66,14 @@ document.getElementById("addBtn").addEventListener("click", function() {
 
   userProfile.hobbies.push(text);
   document.getElementById("hobbyInput").value = "";
+  showProfile();
 });
 
 document.getElementById("removeBtn").addEventListener("click", function() {
   if (hobbyList.lastElementChild) {
     hobbyList.removeChild(hobbyList.lastElementChild);
     userProfile.hobbies.pop();
+    showProfile();
   } else {
     alert("Nothing to remove");
   }
