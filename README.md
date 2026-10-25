@@ -8,12 +8,13 @@
 Created a `const` object named `userProfile` that stores different data types: `name` (string), `birthYear` (number), `isDeveloper` (boolean), and `hobbies` (array).
 
 const userProfile = {
-  name: "Zhansaya",
-  birthYear: 2006,
+  name: "Tolganai",     // <-- твое имя
+  birthYear: 2008,      // <-- твой год
   isDeveloper: true,
-  hobbies: ["Volleyboll", "watch movie", "drawing","sleep"]
+  hobbies: ["volleyball", "watch movie", "drawing", "sleep"]
 };
-<img width="1382" height="601" alt="image" src="https://github.com/user-attachments/assets/53e0c35e-83f6-4436-bd0a-e8dc1cb5c08f" />
+<img width="1241" height="617" alt="image" src="https://github.com/user-attachments/assets/7aff03ac-fe97-4b48-99db-35517fd0f351" />
+
 
 ---
 
@@ -23,29 +24,36 @@ js
 let thisYear = new Date().getFullYear();
 let age = thisYear - userProfile.birthYear;
 let months = age * 12;
-<img width="1022" height="586" alt="image" src="https://github.com/user-attachments/assets/a0f5d4e3-006b-4ef7-a8aa-da73ed22a8cb" />
+<img width="1170" height="596" alt="image" src="https://github.com/user-attachments/assets/fdb28f68-6953-4be5-8b82-0c2128ce449c" />
+<img width="1242" height="591" alt="image" src="https://github.com/user-attachments/assets/5b05b896-ea17-4947-9ba7-cb8eaa8c1831" />
+
+
 
 
 ---
 
 Task 3 - HTML Form Setup
 Created a form with inputs for Username and Birth Year, along with a "Create / Update Profile" submit button.
-<img width="922" height="281" alt="image" src="https://github.com/user-attachments/assets/8f385772-78e1-4cef-9a98-daef12823ef4" />
+<img width="977" height="271" alt="image" src="https://github.com/user-attachments/assets/eccc6985-38b2-4e27-bd55-a2d8953ea92b" />
+
 
 ---
 
 Task 4 - Event Listener
 Added a submit event listener to the form. It captures the input values, updates the userProfile object, and calls showProfile() to refresh the DOM. I used preventDefault() to stop the page from reloading.
-<img width="1287" height="631" alt="image" src="https://github.com/user-attachments/assets/d1a0b2dd-ff8b-4d93-8530-5619e6b7fe60" />
-<img width="1375" height="602" alt="image" src="https://github.com/user-attachments/assets/5338af74-d417-4a11-a143-947fc61f012e" />
+<img width="1192" height="587" alt="image" src="https://github.com/user-attachments/assets/1a337b44-1818-4d99-bdcf-bf34e5bfb37e" />
+
+<img width="1197" height="597" alt="image" src="https://github.com/user-attachments/assets/ef3de502-0e1b-4178-b3d3-705cb21ce89f" />
+
 
 
 ---
 
 Task 5 - Creating & Removing Elements
 Created a <ul> list. The "Add Item" button creates a new <li> using document.createElement and appends it. The "Remove Item" button deletes the last item using lastElementChild and removeChild.
-<img width="1281" height="296" alt="image" src="https://github.com/user-attachments/assets/8502b0c2-13b4-4bae-af2e-4a78a3af455e" />
-<img width="1256" height="230" alt="image" src="https://github.com/user-attachments/assets/2ef0de5a-f0ce-4c90-b656-d0f584598b08" />
+<img width="897" height="235" alt="image" src="https://github.com/user-attachments/assets/e93d0757-59ea-43ff-9347-fa0569a97688" />
+<img width="1275" height="237" alt="image" src="https://github.com/user-attachments/assets/a95530e8-be59-4f61-82bc-5513060369be" />
+
 
 
 ---
