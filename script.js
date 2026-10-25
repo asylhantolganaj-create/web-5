@@ -1,9 +1,9 @@
-// ===================== TASK 1 =====================
+
 const userProfile = {
-  name: "Zhansaya",
-  birthYear: 2006,
+  name: "Tolganai",
+  birthYear: 2008,
   isDeveloper: true,
-  hobbies: ["Volleyboll", "watch movie", "drawing","sleep"]
+  hobbies: ["Volleyboll", "watch movie", "drawing","swimming"]
 };
 
 
